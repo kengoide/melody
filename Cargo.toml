@@ -1,0 +1,13 @@
+[package]
+name = "melody"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.21"
+rocket = "0.5.0-rc"
+scraper = "0.13.0"
+sea-orm = { version = "0.8.0", features = [ "sqlx-mysql", "runtime-tokio-native-tls" ] }
+surf = "2.3.2"
